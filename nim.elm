@@ -231,12 +231,14 @@ display (w,h) game =
 # Play Nim against your computer!
 
 ## The rules 
-- In one move you can remove any number of matches but only from one row. 
+- In one move you can remove any number of matches but only  
+  from one row. 
 - You win if you leave the **last** match for the computer.
 - The looser has the advantage configuration in the next game round.
 
 ## Hints
-- Click on any match in a row to mark all matches to the right for the removal.
+- Click on any match in a row to mark all matches to the right  
+  for the removal.
 - Second click on a match removes all matches to the right.
 - Click on the screen continues the game.
 
