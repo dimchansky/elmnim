@@ -1,0 +1,33 @@
+<html>
+ 
+  <head>
+    <meta charset="utf-8" />
+    <title>Nim | by Dmitrij Koniajev @dimchansky</title>
+    <meta name="description" content="A Nim game for the web browser written in Elm programming language." />
+    <meta name="author" content="Dmitrij Koniajev" />
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-41629923-2', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    
+    <script type="text/javascript" src="build/elm-runtime.js"></script>
+    <script type="text/javascript" src="build/Nim.js"></script>
+  </head>
+ 
+  <body>
+    <div id="nim" style="width:100%; height:100%; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;"></div>
+  </body>
+ 
+  <script type="text/javascript">
+    var nimDiv = document.getElementById('nim');
+    Elm.embed(Elm.Main, nimDiv);
+  </script>
+ 
+</html>
